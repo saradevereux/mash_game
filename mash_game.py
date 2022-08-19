@@ -1,11 +1,13 @@
 import random
 
-#Game Functionality
+# Game Functionality
+
+
 def choices():
     mash = {"live": ["Mansion", "Apartment", "Shack", "House"]}
 # Transportation
     mash["transportation"] = []
-#TQ-1
+# TQ-1
     while True:
         print("\nHow did you get to school when you were little?")
         print("A) Big yellow school bus")
@@ -28,22 +30,22 @@ def choices():
         else:
             print("Please answer: A, B, C, or D")
     mash["transportation"].append(trans_a)
-#TQ-2
+# TQ-2
     print("\nWhat was your dream car as a teenager? ")
     trans_b = input("Answer: ")
     trans_b += ", dreams really do come true!!"
     mash["transportation"].append(trans_b)
-#TQ-3
-    print("\nWhat was your first car?"  )    
+# TQ-3
+    print("\nWhat was your first car?")
     trans_c = input("Answer:  ")
     trans_c += ", maybe you can tell people it's an antique."
     mash["transportation"].append(trans_c)
-#TQ-4
+# TQ-4
     print("\nName a type of public transportation")
     trans_d = input("Answer: ")
     trans_d += ", if you put in headphones and breathe through your mouth, it's not so bad."
     mash["transportation"].append(trans_d)
-#TQ-5    
+# TQ-5
     while True:
         print("\nHow do you get to work?")
         print("A) Walk, when the weather allows for it")
@@ -69,7 +71,7 @@ def choices():
 
 # Career
     mash["career"] = []
-#CQ-1
+# CQ-1
     while True:
         print("\nHow do you unwind at home?")
         print("A) Watch TV?")
@@ -92,22 +94,22 @@ def choices():
         else:
             print("Please answer: A, B, C, or D")
     mash["career"].append(job_a)
-#CQ-2
+# CQ-2
     print("\nWhat is your current job?")
     job_b = input("Answer:  ")
     job_b += ", you've always considered yourself a company man."
     mash["career"].append(job_b)
-#CQ-3
+# CQ-3
     print("\nWhat did you want to be when you grew up?  ")
     job_c = input("Answer:  ")
     job_c += ", if only those bullies in middle school could see you now!"
     mash["career"].append(job_c)
-#CQ-4  
+# CQ-4
     print("\nWhat was the worst job you've ever had?")
     job_d = input("Answer:  ")
     job_d += ", you're just a hamster stuck on the wheel of life."
     mash["career"].append(job_d)
- #CQ-5   
+ # CQ-5
     print("\nIf you could be anything at all, what would you be?")
     job_e = input("Answer:  ")
     job_e += ", look Ma, you made it!"
@@ -115,52 +117,53 @@ def choices():
 
 # Salary
     mash["salary"] = []
-    possible_salary = ["$10,000", "$15,000", "$25,000", "$35,000", "$50,000", "$75,000", "$100,000", "$1,000,000"]
+    possible_salary = ["$10,000", "$15,000", "$25,000",
+                       "$35,000", "$50,000", "$75,000", "$100,000", "$1,000,000"]
     print("\nTo determine possible salaries you'll need to spin \nThe Wheel.... of.... Possible Fortuuuuuuuune!!! \nYou will spin the wheel 5 times, each time a new possible salary will be added to the MASH mix")
-#SQ-1    
+# SQ-1
     input("\nPress ENTER to spin: ")
     salary_a = random.choice(possible_salary)
     mash["salary"].append(salary_a)
-#SQ-2    
+# SQ-2
     input("\nPress ENTER, to spin again!")
     salary_b = random.choice(possible_salary)
     mash["salary"].append(salary_b)
-#SQ-3    
+# SQ-3
     input("\nCOME ON BIG MONEY! press ENTER")
     salary_c = random.choice(possible_salary)
     mash["salary"].append(salary_c)
-#SQ-4   
+# SQ-4
     input("\nKeep on spinning! press ENTER")
     salary_d = random.choice(possible_salary)
     mash["salary"].append(salary_d)
-#SQ-5
+# SQ-5
     input("\nOne more, spin the wheel! press ENTER")
     salary_e = random.choice(possible_salary)
     mash["salary"].append(salary_e)
 
 # Location
     mash["location"] = []
-#LQ-1
+# LQ-1
     print("\nWhat city and state where you born in?")
     loc_a = input("Answer:  ")
     loc_a += ", born and raised."
     mash["location"].append(loc_a)
-#LQ-2
+# LQ-2
     print("\nWhere was your favorite vacation?")
     loc_b = input("Answer:  ")
     loc_b += ", just another day in paradise!"
     mash["location"].append(loc_b)
-#LQ-3   
+# LQ-3
     print("\nName a state and capital")
     loc_c = input("Answer:  ")
     loc_c += ", you like to be close to the power."
     mash["location"].append(loc_c)
-#LQ-4   
+# LQ-4
     print("\nIf you could travel anywhere, where would you go?")
     loc_d = input("Answer:  ")
     loc_d += ", not a bad place to call home."
     mash["location"].append(loc_d)
-#LQ-5  
+# LQ-5
     print("\nWhere was the last place you lived?")
     loc_e = input("Answer:  ")
     loc_e += ", how did you wind up back here!?!"
@@ -168,27 +171,27 @@ def choices():
 
 # Partner
     mash["partner"] = []
-#PaQ-1
+# PaQ-1
     print("\nWho is your celebrity crush?")
     part_a = input("Answer:  ")
     part_a += ", you're always red carpet ready."
     mash["partner"].append(part_a)
-#PaQ-2
+# PaQ-2
     print("\nWho did you think was a dreamboat in middle school?")
     part_b = input("Answer:  ")
     part_b += ", it was always meant to be!"
     mash["partner"].append(part_b)
-#PaQ-3
+# PaQ-3
     print("\nWho was your least favorite teacher?")
     part_c = input("Answer:  ")
     part_c += ", gross!"
     mash["partner"].append(part_c)
-#PaQ-4
+# PaQ-4
     print("\nName a politician")
     part_d = input("Answer:  ")
     part_d += ", you always were drawn to power."
     mash["partner"].append(part_d)
-#PaQ-5
+# PaQ-5
     print("\nWhat is your next door neighbor's name?")
     part_e = input("Answer:  ")
     part_e += ", sometimes love is right around the corner."
@@ -196,7 +199,7 @@ def choices():
 
 # Pet
     mash["pet"] = []
-#PeQ-1
+# PeQ-1
     while True:
         print("\nWhich do you find the creepiest?")
         print("A) Tarantula")
@@ -219,7 +222,7 @@ def choices():
         else:
             print("Please answer: A, B, C, or D")
     mash["pet"].append(pet_a)
-#PeQ-2
+# PeQ-2
     while True:
         print("\nWhich do you think is the smartest?")
         print("A) Robot")
@@ -242,12 +245,12 @@ def choices():
         else:
             print("Please answer: A, B, C, or D")
     mash["pet"].append(pet_b)
-#PeQ-3
+# PeQ-3
     print("\nWhat animal do you think is the cutest?")
     pet_c = input("Answer:  ")
     pet_c += ", all other pets pale in comparison!"
     mash["pet"].append(pet_c)
-#PeQ-4   
+# PeQ-4
     print("\nWhat type of pet did you have growing up?")
     pet_d = input("Answer:  ")
     pet_d += ", it's a classic."
@@ -270,9 +273,10 @@ def choices():
 
     return mash
 
+
 def play(mash):
     fortune = {}
-    #Spiral function
+    # Spiral function
     print("\nIs it a kind of wild that your entire future comes down to a randomly generated number?")
     print("That seems a little high stakes...")
     print("...anyways..")
@@ -280,51 +284,59 @@ def play(mash):
     rand_num = random.randint(2, 12)
     print("\nYour N.O.D. (Number of Destiny) is:", rand_num)
     finished = False
-    all_cats = list(mash.keys()) #creates list of categories
-   #create pointer to move through keys and values 
-    pointer = {"point_cat":0,"point_idx":0} #iterator starts at 0
-    counter = rand_num - 1 #account for 0 index
+    all_cats = list(mash.keys())  # creates list of categories
+   # create pointer to move through keys and values
+    pointer = {"point_cat": 0, "point_idx": 0}  # iterator starts at 0
+    counter = rand_num - 1  # account for 0 index
     while not finished:
-        pc = pointer["point_cat"] #points to key
-        pi = pointer["point_idx"] #points to index of list value in key
-        current_list = mash[all_cats[pc]] #current value list being iterated through
-        rem = len(current_list) - pi #items remaining in list after where the pointer is pointing
+        pc = pointer["point_cat"]  # points to key
+        pi = pointer["point_idx"]  # points to index of list value in key
+        # current value list being iterated through
+        current_list = mash[all_cats[pc]]
+        # items remaining in list after where the pointer is pointing
+        rem = len(current_list) - pi
         if counter < rem:
-            pointer["point_idx"] += counter #move the pointer
-            mash[all_cats[pc]].pop(pointer['point_idx']) #removes current category option
-        #if current category has 1 item left, pop category and return to fortune dictionary
+            pointer["point_idx"] += counter  # move the pointer
+            # removes current category option
+            mash[all_cats[pc]].pop(pointer['point_idx'])
+        # if current category has 1 item left, pop category and return to fortune dictionary
             if len(mash[all_cats[pc]]) == 1:
                 fortune[all_cats[pc]] = mash[all_cats[pc]][0]
-            #removes category from master list of categories
-                del mash[all_cats[pc]] #removes category from mash dictionary
-                all_cats.pop(pc) #removes category from list of categories
-                if len(all_cats)!=0:
+            # removes category from master list of categories
+                del mash[all_cats[pc]]  # removes category from mash dictionary
+                all_cats.pop(pc)  # removes category from list of categories
+                if len(all_cats) != 0:
                     pointer['point_idx'] = 0
-                    pointer['point_cat'] = modul(pc,len(all_cats))
+                    pointer['point_cat'] = modul(pc, len(all_cats))
             counter = rand_num - 1
-        else: #counter >= rem
+        else:  # counter >= rem
             counter -= rem
-            pointer['point_cat'] = skip_cat(pc,len(all_cats))
+            pointer['point_cat'] = skip_cat(pc, len(all_cats))
             pointer['point_idx'] = 0
         finished = len(mash.keys()) == 0
     return fortune
-#function to reset pointer when category doesnt have enough items to iterate through
-def skip_cat(point_cat, total_cats):
-    return (point_cat+1)%total_cats
+# function to reset pointer when category doesnt have enough items to iterate through
 
-#function to determine modulus to reset pointer at end of list
-def modul(x,y):
-    mod = x%y
-    if mod<0:
-        mod+=y
+
+def skip_cat(point_cat, total_cats):
+    return (point_cat+1) % total_cats
+
+# function to determine modulus to reset pointer at end of list
+
+
+def modul(x, y):
+    mod = x % y
+    if mod < 0:
+        mod += y
     return mod
 
-#Game play
+
+# Game play
 print("\nWelcome to the game of MASH")
 print("The same game you played as a wide-eyed optimistic child has been modernized and automated so your friend Jenny doesn't screw up counting again!")
 print("\nAnswer a few simple questions and all your questions about what do do with your life, \nwho is your eternal love, and \njust how filthy rich you will be, \ncan be answered!")
 print("Are you ready to make the uknown, known?")
-while True:   
+while True:
     to_play = input("[y/N]  ").lower()
     if to_play == "y":
         mash = choices()
@@ -333,7 +345,8 @@ while True:
         destiny = play(mash)
         print("\nHere it is! Your actual True Destiny, hope its everything you ever dreamed of:")
         print("You will live in a:", destiny["live"])
-        print("Your mode of transportation with be:", destiny["transportation"])
+        print("Your mode of transportation with be:",
+              destiny["transportation"])
         print("Your career will be:", destiny["career"])
         print("Your yearly income will be:", destiny["salary"])
         print("You will live in:", destiny["location"])
