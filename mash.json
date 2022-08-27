@@ -1,0 +1,272 @@
+{
+    "survey": [
+        {
+            "category": "house",
+            "type": "not asked",
+            "question": "Where will you live",
+            "answers": [
+                "Mansion",
+                "Apartment",
+                "Shack",
+                "House"
+            ]
+        },
+        {
+            "category": "salary",
+            "type": "spinner",
+            "question": "How much will you make a year?",
+            "answers": [
+                [
+                    "$10,000",
+                    "$15,000",
+                    "$25,000",
+                    "$35,000",
+                    "$50,000",
+                    "$75,000",
+                    "$100,000",
+                    "$1,000,000"
+                ]
+            ]
+        },
+        {
+            "category": "kids",
+            "type": "spinner",
+            "question": "Children are the future...are they in yours?",
+            "answers": [
+                "Twins, their names are Cindy and Mindy, they may or may not be plotting aginst you...",
+                "An only child, but you're more like best friends than anything",
+                "A boy and a girl, you've called them by their first initial so much, sometimes you forget what their names actually are",
+                "7 kids, if you dont say thier names in order you'll forget someone",
+                "0, your time is your own"
+            ]
+        },
+        {
+            "category": "transportation",
+            "type": "multiple, switch",
+            "question": "How did you get to school when you were little?",
+            "answers": {
+                "Big yellow school bus": "Your cousin's old Honda, but it's got an aftermarket spoiler, so it's pretty sweet.",
+                "Rode your bike": "A Harly Davidson, you would rather die than be a cager!",
+                "Backseat of your mom's minivan": "Subaru Forester, the safety record is simply impeccable.",
+                "Walked...uphill..both ways...in the snow": "Ford F-150. Haul stuff? No. But you could if you needed to!"
+            }
+        },
+        {
+            "category": "transportation",
+            "type": "field",
+            "question": "What was your dream car as a teenager?",
+            "answers": [
+                "",
+                ", dreams really do come true!"
+            ]
+        },
+        {
+            "category": "transportation",
+            "type": "field",
+            "question": "What was your first car?",
+            "answers": [
+                "",
+                ", maybe you can tell people it's an antique."
+            ]
+        },
+        {
+            "category": "transportation",
+            "type": "field",
+            "question": "Name a type of public transportation",
+            "answers": [
+                "",
+                ", if you put in headphones and breathe through your mouth, it's not so bad."
+            ]
+        },
+        {
+            "category": "transportation",
+            "type": "multiple, switch",
+            "question": "How do you get to work?",
+            "answers": {
+                "Walk, when the weather allows for it": "An E-bike, its great for getting around town...unless a tourist takes it thinking its part of the city bike share.",
+                "Drive, obviously": "A luxury sedan, but it has sport mode for when you feel spunky",
+                "Bike, you also recycle in case anyone was wondering": "The fixie you built from spare parts during your volunteer hours at the community Gear Hub",
+                "Public transportation, putting your tax dollars to work": "In the age of Uber, who needs a car!"
+            }
+        },
+        {
+            "category": "transportation",
+            "type": "field",
+            "question": "Name a type of public transportation",
+            "answers": [
+                "",
+                ", if you put in headphones and breathe through your mouth, it's not so bad."
+            ]
+        },
+        {
+            "category": "career",
+            "type": "multiple, switch",
+            "question": "How do you unwind at home?",
+            "answers": {
+                "Watch TV": "Showbiz, baby! Small screens, big screens you're on them all!",
+                "Tidying up": "Watch out Marie Kondo, you're sparking joy all around you, while building your organization empire!",
+                "Cooking and baking": "You left the corporate world to enter the wild west of restauranteuring, how hard could it be?",
+                "Crafting": "Right now, you're between jobs... you're focusing your efforts more on manifesting rather than actively looking."
+            }
+        },
+        {
+            "category": "career",
+            "type": "field",
+            "question": "What is your current job?",
+            "answers": [
+                "",
+                ", you've always considered yourself a company man."
+            ]
+        },
+        {
+            "category": "career",
+            "type": "field",
+            "question": "What did you want to be when you grew up?",
+            "answers": [
+                "",
+                ", if only those bullies in middle school could see you now!"
+            ]
+        },
+        {
+            "category": "career",
+            "type": "field",
+            "question": "What was the worst job you've ever had?",
+            "answers": [
+                "",
+                ", you're just a hamster stuck on the wheel of life."
+            ]
+        },
+        {
+            "category": "location",
+            "type": "field",
+            "question": "What city and state where you born in?",
+            "answers": [
+                "",
+                ", born and raised."
+            ]
+        },
+        {
+            "category": "location",
+            "type": "field",
+            "question": "Where was your favorite vacation?",
+            "answers": [
+                "",
+                ", just another day in paradise!"
+            ]
+        },
+        {
+            "category": "location",
+            "type": "field",
+            "question": "Name a state and capital",
+            "answers": [
+                "",
+                ", you like to be close to the power."
+            ]
+        },
+        {
+            "category": "location",
+            "type": "field",
+            "question": "Where was the last place you lived?",
+            "answers": [
+                "",
+                ", how did you wind up back here!?!"
+            ]
+        },
+        {
+            "category": "location",
+            "type": "field",
+            "question": "If you could travel anywhere, where would you go?",
+            "answers": [
+                "",
+                ", not a bad place to call home."
+            ]
+        },
+        {
+            "category": "partner",
+            "type": "field",
+            "question": "Who is your celebrity crush?",
+            "answers": [
+                "",
+                ", you're always red carpet ready."
+            ]
+        },
+        {
+            "category": "partner",
+            "type": "field",
+            "question": "Who did you think was a dreamboat in middle school?",
+            "answers": [
+                "",
+                ", it was always meant to be!"
+            ]
+        },
+        {
+            "category": "partner",
+            "type": "field",
+            "question": "Who was your least favorite teacher?",
+            "answers": [
+                "",
+                ", gross!"
+            ]
+        },
+        {
+            "category": "partner",
+            "type": "field",
+            "question": "Name a politician",
+            "answers": [
+                "",
+                ", you always were drawn to power."
+            ]
+        },
+        {
+            "category": "partner",
+            "type": "field",
+            "question": "What is your next door neighbor's name?",
+            "answers": [
+                "",
+                ", sometimes love is right around the corner."
+            ]
+        },
+        {
+            "category": "pet",
+            "type": "multiple, switch",
+            "question": "Which do you find the creepiest?",
+            "answers": {
+                "Tarantula": "a tarantula, it only got out a couple of times.",
+                "Oppossum": "an oppossum, if you squint it's kind of cute.",
+                "Hissing Cockroach": "a hissing cockroach, they're just misunderstood.",
+                "Centipede": "a centipede, it was in your shower one day and the rest is history!"
+            }
+        },
+        {
+            "category": "pet",
+            "type": "multiple, switch",
+            "question": "Which do you think is the smartest?",
+            "answers": {
+                "Robot": "a robot, you've programmed it to bring you toilet paper when you run out.",
+                "Golden Retriever": "a golden retriever, you have matching outfits.",
+                "Potbelly Pig": "potbelly pig, when you bought it, the lady said it would stay small!",
+                "Octopus": "an octopus, it's unclear who is whose pet at this point."
+            }
+        },
+        {
+            "category": "pet",
+            "type": "field",
+            "question": "What animal do you think is the cutest?",
+            "answers": [
+                "",
+                ", all other pets pale in comparison!"
+            ]
+        },
+        {
+            "category": "pet",
+            "type": "field",
+            "question": "What type of pet did you have growing up?",
+            "answers": [
+                "",
+                ", it's a classic."
+            ]
+        },
+        {},
+        {}
+    ]
+}
